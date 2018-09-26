@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unit Converter</title>
+</head>
+<body>
+  <h1>Unit Converter!</h1>
+  <p>Please select a measurement type:</p>
+  <select id="unitType" value="" oninput=chooseUnitType()>
+    <option value="distance" selected="selected">Distance</option>
+    <option value="mass">Mass</option>
+    <option value="temperature">Temperature</option>
+    <option value="time">Time</option>
+  </select>
+  <div id='convertDiv'></div>
+
+  <script src="unitconverter.js"></script>
+</body>
+</html>
